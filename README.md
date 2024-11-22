@@ -2,7 +2,7 @@
 
 ## Group Members
 ADD NAMES HERE  
-Kshitij Pingle
+Kshitij Pingle (kpingle@csu.fullerton.edu)  
 
 ## Description
 Add description here later
