@@ -2,8 +2,8 @@
 
 ## Group Members
 ADD NAMES HERE  
-Kshitij Pingle (kpingle@csu.fullerton.edu)
-John Carlo Manuel (johncarlomanuel@csu.fullerton.edu)
+1. Kshitij Pingle (kpingle@csu.fullerton.edu)
+2. John Carlo Manuel (johncarlomanuel@csu.fullerton.edu)
 
 ## Description
 Add description here later
