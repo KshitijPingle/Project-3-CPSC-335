@@ -15,15 +15,19 @@ def change(coins, amount ):
                 if ((A[i] is None) or (len(candidate) < len(A[i]))):
                     # This candidate is better than the current best, so replace
                     A[i] = candidate
-    
-    return A[amount]
+    coins = 0
+    if (A[amount] is None):
+        coins = -1
+    else:
+        coins = len(A[amount])
+
+    return (coins, A[amount])
 # End of change() function
 
 
 if (__name__ == "__main__"):
     coins = [1, 2, 5]
     amount = 11
-    coins_returned = change(coins, amount)
-    no_of_coins = len(coins_returned)
+    no_of_coins, coins_returned = change(coins, amount)
     print("Min number of coins needed to return change for", amount, "=", no_of_coins)
     print("Combination of coins returned:", coins_returned)
