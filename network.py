@@ -69,5 +69,3 @@ if (__name__ == "__main__"):
     print("Sample_1 Output: " + str(network(times=times1, n=n1, k=k1)))
     print("Sample_2 Output: " + str(network(times=times2, n=n2, k=k2)))
     print("Sample_3 Output: " + str(network(times=times3, n=n3, k=k3)))
-    
-    
