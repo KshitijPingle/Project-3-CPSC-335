@@ -50,22 +50,34 @@ def network(times, n, k):
     
 if (__name__ == "__main__"):
     
-    # Sample 1
+    # Sample 1 (Output: 2)
     times1 = [[2,1,1], [2,3,1], [3,4,1]]
     n1 = 4
     k1 = 2
     
-    # Sample 2
+    # Sample 2 (Output: 1)
     times2 = [[1,2,1]]
     n2 = 2
     k2 = 1
     
-    # Sample 3
+    # Sample 3 (Output: -1)
     times3 = [[1,2,1]]
     n3 = 2
     k3 = 2
+    
+    #Sample 4 (Output: 2)
+    times4 = [[1,2,2]]
+    n4 = 2
+    k4 = 1
+    
+    #Sample 5 (Output: 1)
+    times5 = [[1,2,1], [2,3,2], [1,3,1]]
+    n5 = 3
+    k5 = 1
     
     # Print the outputs and catagorize/label each outputs.
     print("Sample_1 Output: " + str(network(times=times1, n=n1, k=k1)))
     print("Sample_2 Output: " + str(network(times=times2, n=n2, k=k2)))
     print("Sample_3 Output: " + str(network(times=times3, n=n3, k=k3)))
+    print("Sample_4 Output: " + str(network(times=times4, n=n4, k=k4)))
+    print("Sample_5 Output: " + str(network(times=times5, n=n5, k=k5)))
