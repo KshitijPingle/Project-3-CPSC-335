@@ -30,9 +30,32 @@ def change(coins : list, amount : int) -> tuple:
 # End of change() function
 
 
-if (__name__ == "__main__"):
+def test():
+
+    # Test 1
     coins = [1, 2, 5]
     amount = 11
     no_of_coins, coins_returned = change(coins, amount)
+    assert no_of_coins == 3
+    assert coins_returned == [5, 5, 1]
     print("Minimum number of coins needed to return change for", amount, "=", no_of_coins)
     print("Combination of coins returned :", coins_returned)
+    print("Test 1 passed")
+
+    # Test 2
+    coins = [2]
+    amount = 3
+    no_of_coins, coins_returned = change(coins, amount)
+    assert no_of_coins == -1
+    assert coins_returned == None
+    print("Minimum number of coins needed to return change for", amount, "=", no_of_coins)
+    print("Combination of coins returned :", coins_returned)
+    print("Test 2 passed")
+
+    # Add one more test later
+
+# End of test() function
+
+
+if (__name__ == "__main__"):
+    test()
