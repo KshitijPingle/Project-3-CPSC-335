@@ -6,6 +6,7 @@
 # Kshitij Pingle
 # John Carlo Manuel
 # Timothy Tran
+#Peter Afif
 
 
 def change(coins : list, amount : int) -> tuple:
