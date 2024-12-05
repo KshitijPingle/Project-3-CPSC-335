@@ -1,12 +1,13 @@
 # CPSC 335
 # Project 3
 # Problem 1
+# Date last modified: Dec 5, 2024
 
 # Group Members:
 # Kshitij Pingle
 # John Carlo Manuel
 # Timothy Tran
-#Peter Afif
+# Peter Afif
 
 
 def change(coins : list, amount : int) -> tuple:
@@ -32,7 +33,7 @@ def change(coins : list, amount : int) -> tuple:
 
 
 def test():
-
+    """Test function for change() function"""
     # Test 1
     coins = [1, 2, 5]
     amount = 11
@@ -41,7 +42,7 @@ def test():
     assert coins_returned == [5, 5, 1]
     print("Minimum number of coins needed to return change for", amount, "=", no_of_coins)
     print("Combination of coins returned :", coins_returned)
-    print("Test 1 passed")
+    print("Test 1 passed\n")
 
     # Test 2
     coins = [2]
@@ -54,7 +55,6 @@ def test():
     print("Test 2 passed")
 
     # Add one more test later
-
 # End of test() function
 
 
