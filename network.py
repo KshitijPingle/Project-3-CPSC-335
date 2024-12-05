@@ -1,3 +1,15 @@
+# CPSC 335
+# Project 3
+# Problem 2
+# Date last modified: Dec 5, 2024
+
+# Group Members:
+# Kshitij Pingle
+# John Carlo Manuel
+# Timothy Tran
+# Peter Afif
+
+
 # Design an algo to return the minimum time it takes for all the n nodes to recieve this signal, if cannot be recieved, return -1
 # We can use the 'heapq' library to solve our priority queue in Dijkstra's algorithm to retrieve smallest distance node.
 import heapq
